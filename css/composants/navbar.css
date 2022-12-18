@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    background-color: rgb(90, 132, 199);
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 10%;
+    height: 5vh;
+}
+
+li, a, button{
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+    list-style-type: none;
+}
+
+.accueil:hover{
+    background-color: rgb(23, 99, 167);
+    box-shadow: 0px 4px 14px rgba(12,43, 30, 0.2);
+    border-radius: 30px;
+    color: white;
+}
+
+.articles:hover{
+    background-color: rgb(23, 99, 167);
+    box-shadow: 0px 4px 14px rgba(12,43, 30, 0.2);
+    border-radius: 30px;
+    color: white;
+}
+
+.projets:hover{
+    background-color: rgb(23, 99, 167);
+    box-shadow: 0px 4px 14px rgba(12,43, 30, 0.2);
+    border-radius: 30px;
+    color: white;
+}
+
+.apropos:hover{
+    background-color: rgb(23, 99, 167);
+    box-shadow: 0px 4px 14px rgba(12,43, 30, 0.2);
+    border-radius: 30px;
+    color: white;
+}

@@ -1,0 +1,11 @@
+.logo {
+    cursor: pointer;
+    width: 15%;
+}
+
+.photopro{
+    width: 5%;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+}

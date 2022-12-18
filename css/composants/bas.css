@@ -1,0 +1,47 @@
+.bas {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 40px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Formulaire {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1em;
+}
+
+.Formulaire:hover{
+    background-color: rgb(239, 238, 238);
+    box-shadow: 0px 4px 14px rgba(12,43, 30, 0.2);   
+}
+
+form div + div{
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+.dark .ARR {
+    color: white;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
